@@ -10,9 +10,7 @@ class Search extends React.Component {
     handleKey = (event) => {
         if(event.key === 'Enter'){
             this.props.searchMovies(this.state.search)
-        } else if (event.key === null){
-            alert('Vvedite text')
-        }
+        } 
     }
 
     render() {
